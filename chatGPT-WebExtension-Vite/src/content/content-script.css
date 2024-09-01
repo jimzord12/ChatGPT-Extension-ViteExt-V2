@@ -1,0 +1,28 @@
+#sidebar {
+  transition: width 0.5s ease, transform 0.5s ease;
+}
+
+#sidebar-content {
+  transition: width 0.5s ease, transform 0.5s ease;
+}
+
+#sidebar.closed {
+  transform: translateX(-100%);
+}
+
+#sidebar-content.closed {
+  transform: translateX(-100%);
+}
+
+.group-circle {
+  order: -1;
+  border-radius: 50%;
+  height: 16px;
+  width: 16px;
+  align-self: center;
+  cursor: pointer;
+}
+
+body {
+  background-color: aquamarine;
+}
